@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.MathGame" parent="Theme.AppCompat" >
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/green</item>
+    </style>
+
+    <style name="Theme.AdditionGame" parent="Theme.AppCompat" >
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+    </style>
+
+    <style name="Theme.ResultPage" parent="Theme.AppCompat.NoActionBar" >
+        <item name="colorPrimary">@color/ice_blue</item>
+        <item name="colorPrimaryDark">@color/ice_blue</item>
+    </style>
+
+</resources>

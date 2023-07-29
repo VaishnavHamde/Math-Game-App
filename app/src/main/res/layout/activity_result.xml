@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/childrens"
+    tools:context=".ResultActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Congratulations"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textSize="32sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:id="@+id/button_again"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Play Again"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_shape"
+            android:textColor="@color/blue"
+            android:textSize="22sp"/>
+
+        <Button
+            android:id="@+id/button_exit"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Exit"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_shape"
+            android:textColor="@color/blue"
+            android:textSize="22sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
